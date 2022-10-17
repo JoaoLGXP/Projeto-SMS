@@ -6,11 +6,18 @@
   }
 
   h1 {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 700;
     margin: 20px;
     color: #474747; 
   }
+
+  h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+  }
+
   h3 {
     font-size: 20px;
     font-weight: 700;
@@ -33,34 +40,77 @@
 
   .principal-container {
     width: 100%;
-    width: 800px;
+    width: 1000px;
     display: flex;
     margin: 0 auto;
-
+    flex-wrap: wrap;
   }
   
   .first-block {
     width: 100%;
-    width: 600px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
     margin: 30px 50px 30px 0;
-    border: solid yellow;
-    background-color: rgb(222, 222, 222);
+    border: solid #04048a 2px;
+    background-color: #7db8fa;
     border-radius: 10px;
   }
 
   .second-block {
     width: 100%;
-    width: 600px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
     margin: 30px 50px 30px 0;
-    border: solid blue;
-    background-color: rgb(222, 222, 222);
+    border: solid #04048a 2px;
+    background-color: #7db8fa;
     border-radius: 10px;
+  }
+
+  .sector-1 {
+    width: 400px;
+    background-color: #dcf4ff;
+    border:solid #04048a 2px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  /*fim*/
+
+  /*Inicio Exames*/
+  .exams {
+    height: 100%;
+    background-color: #ace5ff;
+  }
+
+  .exams-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .tables {
+    width: 100%;
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .tables-cards {
+    width: 450px;
+    background-color: #dcf4ff;
+    border:solid #04048a 2px;
+    border-radius: 10px;
+    margin: 30px 50px 30px 0;
+    text-align: center;
   }
