@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+  }
+
+  h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px;
+    color: #474747; 
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color:#051985 ;
+  }
+
+  /* Inicio edição Funcionarios*/
+
+  .employees {
+    height: 100%;
+    background-color: #dcf4ff;
+  }
+
+  .principal-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .principal-container {
+    width: 100%;
+    width: 800px;
+    display: flex;
+    margin: 0 auto;
+
+  }
+  
+  .first-block {
+    width: 100%;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin: 30px 50px 30px 0;
+    border: solid yellow;
+    background-color: rgb(222, 222, 222);
+    border-radius: 10px;
+  }
+
+  .second-block {
+    width: 100%;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin: 30px 50px 30px 0;
+    border: solid blue;
+    background-color: rgb(222, 222, 222);
+    border-radius: 10px;
+  }
