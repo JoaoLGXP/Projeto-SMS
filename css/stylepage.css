@@ -5,6 +5,12 @@
   font-family: "poppins", sans-serif;
 }
 
+.p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #474747;
+}
+
 h1 {
   font-size: 35px;
   font-weight: 700;
