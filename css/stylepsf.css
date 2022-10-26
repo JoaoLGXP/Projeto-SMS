@@ -23,6 +23,12 @@ h3 {
   color: #051985;
 }
 
+h4 {
+  font-size: 23px;
+  font-weight: 700;
+  color: #051985;
+}
+
 p {
   font-size: 20px;
   font-weight: 700;
@@ -132,5 +138,8 @@ p {
   border: solid #04048a 2px;
   border-radius: 10px;
   margin: 30px 50px 30px 0;
+}
+
+.card-title {
   text-align: center;
 }
