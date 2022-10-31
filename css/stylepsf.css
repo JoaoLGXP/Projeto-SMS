@@ -138,6 +138,7 @@ p {
   border: solid #04048a 2px;
   border-radius: 10px;
   margin: 30px 50px 30px 0;
+  padding: 10px;
 }
 
 .card-title {
